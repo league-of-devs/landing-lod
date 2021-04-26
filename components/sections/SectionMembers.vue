@@ -80,7 +80,7 @@ export default {
 					name: 'Guilherme Martins',
 					tags: ['Back-end', 'Rust | Node.js', 'GraphQL | PHP', 'Python'],
 					profile: 'guilherme',
-					position: 0,
+					position: 75,
 					buttons: [{
 						text: 'Linkedin',
 						link: 'https://www.linkedin.com/in/guilherme-martins-94aa6a1a7/',
