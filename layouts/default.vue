@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="container mx-auto px-4">
 		<Nuxt />
 	</div>
 </template>
@@ -14,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #191919;
+  background-color: #121212;
 	color: #efefef;
 }
 </style>
