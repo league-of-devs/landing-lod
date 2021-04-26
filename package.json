@@ -26,6 +26,8 @@
 		"eslint-plugin-vue": "^7.7.0",
 		"fibers": "^5.0.0",
 		"postcss": "^8.2.10",
+		"pug": "^3.0.2",
+		"pug-plain-loader": "^1.1.0",
 		"sass": "^1.32.11",
 		"sass-loader": "10",
 		"tailwindcss": "^2.1.1"
