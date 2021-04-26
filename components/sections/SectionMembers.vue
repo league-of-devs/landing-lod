@@ -29,6 +29,10 @@ export default {
 						text: 'Linkedin',
 						link: 'https://www.linkedin.com/in/developer-davi/',
 						icon: 'linkedin.png',
+					}, {
+						text: 'Github',
+						link: 'https://github.com/developerdavi',
+						icon: 'github.png',
 					}],
 				},
 				{
