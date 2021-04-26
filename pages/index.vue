@@ -32,6 +32,8 @@ h1
 .flex-centered
 	@apply flex justify-center items-center
 .accent-text
-	@apply font-bold text-2xl
+	@apply font-bold text-xl text-center
+	@screen md
+		@apply text-2xl
 
 </style>

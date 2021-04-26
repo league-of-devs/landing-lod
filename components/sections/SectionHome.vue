@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section class="sm:min-h-0 md:min-h-screen">
 		<div class="w-full lg:w-1/2 flex-centered">
 			<img src="lod-cropped.png" alt="logo" class="logo">
 		</div>

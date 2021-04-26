@@ -87,6 +87,21 @@ export default {
 						icon: 'github.png',
 					}],
 				},
+				{
+					name: 'Árnilsen Arthur',
+					tags: ['Back-end', 'Java | PHP | C# ', 'Game Developer', 'Game Designer'],
+					profile: 'arnilsem',
+					position: 40,
+					buttons: [{
+						text: 'Linkedin',
+						link: 'https://www.linkedin.com/in/arnilsen-arthur-aa0b04150/',
+						icon: 'linkedin.png',
+					}, {
+						text: 'Github',
+						link: 'https://github.com/arnilsenarthur',
+						icon: 'github.png',
+					}],
+				},
 			],
 		};
 	},
