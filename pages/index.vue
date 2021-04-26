@@ -20,7 +20,7 @@ export default {
 
 <style lang="sass">
 section
-	@apply flex flex-col lg:flex-row h-screen py-4
+	@apply flex-centered flex-col lg:flex-row h-screen py-4
 
 h1
 	font-size: 36px

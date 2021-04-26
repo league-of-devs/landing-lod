@@ -5,7 +5,7 @@
 			<h1>Equipe</h1>
 			<img src="/lod-cropped.png" class="opacity-0 logo">
 		</div>
-		<div class=" flex overflow-x-scroll gap-6 pb-2">
+		<div class="w-full flex overflow-x-scroll gap-6 pb-2">
 			<Profile />
 			<Profile />
 			<Profile />
