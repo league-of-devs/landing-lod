@@ -2,25 +2,28 @@
 	<div>
 		<SectionHome />
 		<SectionMembers />
+		<SectionProjects />
 	</div>
 </template>
 
 <script>
 import SectionHome from '~/components/sections/SectionHome.vue';
 import SectionMembers from '~/components/sections/SectionMembers.vue';
+import SectionProjects from '~/components/sections/SectionProjects.vue';
 
 export default {
 	name: 'Index',
 	components: {
 		SectionHome,
 		SectionMembers,
+		SectionProjects,
 	},
 };
 </script>
 
 <style lang="sass">
 section
-	@apply flex-centered flex-col lg:flex-row h-screen py-4
+	@apply flex-centered flex-col lg:flex-row min-h-screen py-4
 
 h1
 	font-size: 36px

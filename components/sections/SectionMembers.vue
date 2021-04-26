@@ -1,10 +1,6 @@
 <template>
 	<section class="flex-col">
-		<div class="flex w-full justify-center md:justify-between items-center mb-6">
-			<img src="/lod-cropped.png" alt="logo" class="logo">
-			<h1>Equipe</h1>
-			<img src="/lod-cropped.png" class="opacity-0 logo">
-		</div>
+		<PageTitle title="Membros" />
 		<div class="profiles">
 			<Profile v-for="member in members" v-bind="member" :key="member.profile" />
 		</div>
@@ -13,11 +9,13 @@
 
 <script>
 import Profile from '~/components/Profile.vue';
+import PageTitle from '~/components/PageTitle.vue';
 
 export default {
 	name: 'SectionMembers',
 	components: {
 		Profile,
+		PageTitle,
 	},
 	data () {
 		return {
@@ -78,6 +76,7 @@ export default {
 					name: 'Guilherme Martins',
 					tags: ['Back-end', 'Rust | Node.js', 'GraphQL | PHP', 'Python'],
 					profile: 'guilherme',
+					position: 0,
 					buttons: [{
 						text: 'Linkedin',
 						link: 'https://www.linkedin.com/in/guilherme-martins-94aa6a1a7/',
@@ -95,13 +94,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.logo
-	display: none
-	width: 188px
-	height: 80px
-	@screen md
-		display: unset
-
 .profiles
 	min-height: 480px
 	@apply w-full flex overflow-x-scroll gap-6 py-2
