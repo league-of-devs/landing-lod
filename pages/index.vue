@@ -1,29 +1,34 @@
 <template>
-	<session>
-		<div class="w-full lg:w-1/2 flex justify-center items-center ">
-			<img src="lod-cropped.png" alt="logo" class="logo">
-		</div>
-		<div class="w-full lg:w-1/2 flex justify-center items-center">
-			<p class="font-bold text-2xl mt-24 lg:ml-24 lg:mt-0">
-				Uma equipe especializada que torna ideias em realidade.
-			</p>
-		</div>
-	</session>
+	<div>
+		<SectionHome />
+		<SectionMembers />
+	</div>
 </template>
 
-<style lang="sass" scoped>
-.logo
-	width: 100%
-	max-width: 280px
-	max-height: 120px
-	@apply mt-24 lg:mt-0
-	@screen md
-		max-width: 460px
-		max-height: 240px
-	@screen lg
-		max-width: 600px
-		max-height: 250px
+<script>
+import SectionHome from '~/components/sections/SectionHome.vue';
+import SectionMembers from '~/components/sections/SectionMembers.vue';
 
-session
-	@apply flex flex-col lg:flex-row h-screen
+export default {
+	name: 'Index',
+	components: {
+		SectionHome,
+		SectionMembers,
+	},
+};
+</script>
+
+<style lang="sass">
+section
+	@apply flex flex-col lg:flex-row h-screen py-4
+
+h1
+	font-size: 36px
+	line-height: 64px
+	font-weight: 700
+.flex-centered
+	@apply flex justify-center items-center
+.accent-text
+	@apply font-bold text-2xl
+
 </style>
