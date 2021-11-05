@@ -23,7 +23,7 @@ export default {
 				img: 'lendy.png',
 			}, {
 				title: 'Megahack 2020 2.0',
-				info: 'A nossa missão é levar o vendedor a evoluir dentro dos marketplaces e melhorar a experiência de seus clientes. A asKate é um SaaS que possui um sistema de inteligência interno: a Kate. Nossos serviços também podem ser utilizados via API, caso a loja queira implementar nossas funções em seu próprio APP.',
+				info: 'Nossa missão é levar o vendedor a evoluir dentro dos marketplaces e melhorar a experiência de seus clientes. A asKate é um SaaS que possui um sistema de inteligência interno: a Kate. Nossos serviços também podem ser utilizados via API, caso a loja queira implementar nossas funções em seu próprio APP.',
 				img: 'askate.png',
 			}],
 		};
